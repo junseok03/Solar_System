@@ -24,13 +24,6 @@ function setup() {
 
     starsPlane = createGraphics(windowWidth, windowHeight);
     starsPlane.noStroke();
-
-    // // stars
-    // for(var i = 0; i < 200; i++)
-    // {
-    //     starsPlane.fill(255,255,0);
-    //     starsPlane.ellipse(random(starsPlane.width), random(starsPlane.height), 10);
-    // }
 }
 
 function draw() {
@@ -54,13 +47,6 @@ function draw() {
     plane(width*5, height*5);
     pop();
 
-    // // stars
-    // for(var i = 0; i < 200; i++)
-    // {
-    //     starsPlane.fill(255,0,0);
-    //     starsPlane.ellipse(random(starsPlane.width), random(starsPlane.height), 10);
-    // }
-    
     /** Settings for the sun */
     // sun
     push();
